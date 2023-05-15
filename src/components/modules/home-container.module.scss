@@ -1,0 +1,22 @@
+.menuList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.menuFirstCardList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 160px;
+}
+
+.menuSecondCardList {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 170px;
+}

@@ -1,0 +1,11 @@
+.menuList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px 20px;
+}
+
+.resizeCoffeeImage {
+  span {
+    min-height: 207px;
+  }
+}
